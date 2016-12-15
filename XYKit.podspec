@@ -23,6 +23,6 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/5706871/XYKit'
   s.source       = { :git => 'https://github.com/5706871/XYKit.git', :tag => '#{s.version}' }
 
-  s.author             = { ‘XINYUE XIONG' => '5706871@qq.com' }
+  s.author             = { 'XINYUE XIONG' => '5706871@qq.com' }
 
 end
