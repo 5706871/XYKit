@@ -17,12 +17,16 @@ Pod::Spec.new do |s|
 
   s.name         = 'XYKit'
   s.version      = '0.0.1'
-  s.license      = { :type => 'MIT', :file => 'FILE_LICENSE' }
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.summary      = 'A short description of XYKit.'
 
   s.homepage     = 'https://github.com/5706871/XYKit'
+  s.author       = { 'XINYUE XIONG' => '5706871@qq.com' }
+
   s.source       = { :git => 'https://github.com/5706871/XYKit.git', :tag => '#{s.version}' }
 
-  s.author             = { 'XINYUE XIONG' => '5706871@qq.com' }
+  s.source_files = 'XYKit'
+
+  s.platforms = { :ios => '8.0' }
 
 end
